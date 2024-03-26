@@ -20,8 +20,9 @@ function App() {
   }
   return (
 <div className="app">
+
 <div className="search">
-        <input
+        <input className='focus:grey'
           value={location}
           onChange={event => setLocation(event.target.value)}
           onKeyDown={searchLocation}
